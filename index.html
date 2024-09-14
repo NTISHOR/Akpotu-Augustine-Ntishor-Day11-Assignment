@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photo Gallery</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, auto);
+      gap: 10px;
+    }
+
+    .grid-item {
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .grid-item img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="image1.jpg" alt="Image 1">
+      <p>Image 1 caption</p>
+    </div>
+    <div class="grid-item">
+      <img src="image2.jpg" alt="Image 2">
+      <p>Image 2 caption</p>
+    </div>
+    <div class="grid-item">
+      <img src="image3.jpg" alt="Image 3">
+      <p>Image 3 caption</p>
+    </div>
+    <div class="grid-item">
+      <img src="image4.jpg" alt="Image 4">
+      <p>Image 4 caption</p>
+    </div>
+    <!-- ... -->
+  </div>
+</body>
+</html>
